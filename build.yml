@@ -8,4 +8,4 @@ type: docker-image
     tag: 'latest'
 
 run:
-  path: build
+  path: project-src/build
