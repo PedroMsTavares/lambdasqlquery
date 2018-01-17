@@ -19,3 +19,10 @@ run:
     env
     cd project-src
     npm install
+    zip -r built.zip .
+    mkdir /built-project
+    cp built.zip /built-project/built.zip
+    
+
+outputs:
+- name: built-project
