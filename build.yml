@@ -21,6 +21,7 @@ run:
     npm install
     mkdir /built-project
     cp -r * /built-project/
+    ls -l /built-project/
     
 
 outputs:
