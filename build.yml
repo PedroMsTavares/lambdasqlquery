@@ -19,7 +19,7 @@ run:
     env
     cd project-src
     npm install
-    mkdir built-project
+    mkdir /built-project
     cp -r * /built-project/
     
 
