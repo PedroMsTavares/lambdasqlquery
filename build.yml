@@ -4,7 +4,7 @@ platform: linux
 image_resource:
   type: docker-image
   source:
-    repository: node
+    repository: centos/nodejs-6-centos7
     tag: 'latest'
 
 inputs:
@@ -20,9 +20,10 @@ run:
     cd project-src
     npm install
     mkdir /built-project
-    cp -r * /built-project/
+    tar -cvzf /built-project/release.tgz .
     ls -l /built-project/
     
 
 outputs:
 - name: built-project
+  path: /built-project
