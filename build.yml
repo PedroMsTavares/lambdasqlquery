@@ -19,8 +19,9 @@ run:
     env
     cd project-src
     npm install
+    mkdir built-project
+    cp -r * /built-project/
     
 
 outputs:
 - name: built-project
-  path : project-src
