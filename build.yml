@@ -18,11 +18,10 @@ run:
     whoami
     env
     cd project-src
-    mkdir built-project
-    tar -cvzf built-project/release.tgz .
-    ls -l built-project/
+    tar -cvzf /tmp/release.tgz .
+    ls -l /tmp
     
 
 outputs:
 - name: built-project
-  path: project-src/built-project
+  path: /tmp/
