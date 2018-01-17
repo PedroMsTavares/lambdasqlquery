@@ -17,5 +17,5 @@ run:
   - |
     whoami
     env
-    ls -la
+    cd project-src
     npm install
