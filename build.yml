@@ -11,4 +11,12 @@ inputs:
 - name: project-src
 
 run:
-  path: project-src/build
+  path: sh
+  args:
+  - -exc
+  - |
+    whoami
+    env
+    go version
+    find .
+    touch some-output/my-built-artifact
