@@ -20,8 +20,7 @@ run:
     cd project-src
     npm install
     mkdir /built-project
-    tar -cvzf release.tgz project-src
-    cp -r release.tgz /built-project/
+    cp -r * /built-project/
     ls -l /built-project/
     
 
