@@ -18,10 +18,11 @@ run:
     whoami
     env
     cd project-src
-    tar -cvzf /tmp/release.tgz .
-    ls -l /tmp
+    mkdir /tpm/finalversion/
+    tar -cvzf /tmp/finalversion/release-1.0.0.tgz .
+    ls -l /tmp/finalversion/
     
 
 outputs:
 - name: built-project
-  path: /tmp/
+  path: /tmp/finalversion/
