@@ -25,4 +25,4 @@ run:
 
 outputs:
 - name: built-project
-  path: /tmp/finalversion/
+  path: /tmp/finalversion/release(*).tgz
