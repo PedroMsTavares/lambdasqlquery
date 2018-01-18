@@ -17,7 +17,7 @@ run:
     whoami
     ls -l
     tar -cvzf /tmp/release-1.0.0.tgz built-project/
-    mv /tmp/release-1.0.0.tgz built-project/release-1.0.0.tgz
+    sudo mv /tmp/release-1.0.0.tgz built-project/release-1.0.0.tgz
 
     
 
