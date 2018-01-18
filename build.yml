@@ -17,9 +17,8 @@ run:
   - |
     whoami
     ls -l
-    ls -ll built-project
-    tar -zxvf prog-1-jan-2005.tar.gz project-src/
-    tar -zxvf built-project/prog-1-jan-2005.tar.gz project-src/
+    tar -cvzf /tmp/release-1.0.0.tgz projectc/
+    mv /tmp/release-1.0.0.tgz built-project/release-1.0.0.tgz
 
     
 
