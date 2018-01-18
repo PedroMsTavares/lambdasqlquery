@@ -16,13 +16,10 @@ run:
   - -exc
   - |
     whoami
-    env
-    cd project-src
-    ls -l ../built-project/
-    cd ..
-    tar -cvzf built-project/release-1.0.0.tgz project-src/
-    ls -l ../built-project/
-    cd ../built-project
+    ls -l
+    tar -zcvf built-project/release.tar.gz project-src
+    ls -l built-project/
+
     
 
 outputs:
