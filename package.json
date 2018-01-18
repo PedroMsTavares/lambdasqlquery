@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "json-2-csv": "^2.1.1",
-    "mssql": "^4.0.4"
+    "mssql": "^4.0.4",
+    "aws-sdk": "*"
   }
 }
