@@ -18,7 +18,6 @@ run:
     whoami
     env
     cd project-src
-    mkdir ../built-project/
     tar -cvzf ../built-project/release-1.0.0.tgz .
     ls -l ../built-project/
     cd ../built-project
