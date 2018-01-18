@@ -2,10 +2,10 @@
 platform: linux
 image_resource:
   type: docker-image
-  privileged: true
   source:
     repository: centos/nodejs-6-centos7
     tag: 'latest'
+    privileged: true
 
 inputs:
 - name: project-src
