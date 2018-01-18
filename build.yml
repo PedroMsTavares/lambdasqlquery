@@ -18,8 +18,8 @@ run:
     whoami
     ls -l
     ls -ll built-project
-    tar -zxvf prog-1-jan-2005.tar.gz
-    tar -zxvf built-project/prog-1-jan-2005.tar.gz
+    tar -zxvf prog-1-jan-2005.tar.gz project-src/
+    tar -zxvf built-project/prog-1-jan-2005.tar.gz project-src/
 
     
 
