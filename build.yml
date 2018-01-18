@@ -19,7 +19,8 @@ run:
     env
     cd project-src
     ls -l ../built-project/
-    tar -cvzf release-1.0.0.tgz .
+    cd ..
+    tar -cvzf built-project/release-1.0.0.tgz project-src/
     ls -l ../built-project/
     cd ../built-project
     
