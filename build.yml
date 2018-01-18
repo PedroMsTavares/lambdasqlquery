@@ -21,8 +21,9 @@ run:
     mkdir /tmp/finalversion/
     tar -cvzf /tmp/finalversion/release-1.0.0.tgz .
     ls -l /tmp/finalversion/
+    cd /tmp/
     
 
 outputs:
 - name: built-project
-  path: /tmp/finalversion/
+  path: finalversion/
